@@ -6,8 +6,7 @@ void setup()
   pinMode(potenciometro,INPUT);
   pinMode(LED,OUTPUT);
   
-  Serial.begin(9600);
-  
+  Serial.begin(9600); 
 }
 
 
@@ -15,7 +14,7 @@ void loop()
 {
     int fadeValue = analogRead(potenciometro);
     
-    fadeValue = fadeValue / 4,11;
+    fadeValue = fadeValue / 4,11;//Relação entre o valor máximo do LED e do Potênciometro. 
     
     analogWrite(LED,fadeValue);
     
