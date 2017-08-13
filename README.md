@@ -5,3 +5,5 @@
 * [Controle](https://github.com/CristianoRC/Arduino/blob/master/Controle/Controle.ino) - [Código C# ](https://gist.github.com/CristianoRC/f76954e79354826d4ecb47907a70831b)
 
 * [Analog Read / Write](https://github.com/CristianoRC/Arduino/blob/master/Analog/Analog.ino)
+
+* [Infra Vermelho](https://github.com/CristianoRC/Arduino/blob/master/InfraVermelho)
