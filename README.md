@@ -7,3 +7,5 @@
 * [Analog Read / Write](https://github.com/CristianoRC/Arduino/blob/master/Analog/Analog.ino)
 
 * [Infra Vermelho](https://github.com/CristianoRC/Arduino/blob/master/InfraVermelho)
+
+* [Display 7 seguimentos](https://github.com/CristianoRC/Arduino/blob/master/SeteSeguimentos/SeteSeguimentos.ino);
