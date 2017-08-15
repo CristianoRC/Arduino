@@ -1,6 +1,8 @@
+//Anodo comum
+
 #define soma 10
 #define subtracao 11
-
+                             //    A B C D E F G
 byte seven_seg_digits[16][7] = { { 0,0,0,0,0,0,1 },  // = 0
                                  { 1,0,0,1,1,1,1 },  // = 1
                                  { 0,0,1,0,0,1,0 },  // = 2
@@ -25,12 +27,12 @@ int contador = 0;
 void setup() 
 {                
   pinMode(2, OUTPUT);//A   
-  pinMode(3, OUTPUT);//b
-  pinMode(4, OUTPUT);//B
-  pinMode(5, OUTPUT);//C
-  pinMode(6, OUTPUT);//D
-  pinMode(7, OUTPUT);//E
-  pinMode(8, OUTPUT);//F
+  pinMode(3, OUTPUT);//B
+  pinMode(4, OUTPUT);//C
+  pinMode(5, OUTPUT);//D
+  pinMode(6, OUTPUT);//E
+  pinMode(7, OUTPUT);//F
+  pinMode(8, OUTPUT);//G
   pinMode(9, OUTPUT);//Ponto
   pinMode(soma,INPUT_PULLUP);
   pinMode(subtracao,INPUT_PULLUP);
@@ -86,11 +88,3 @@ void sevenSegWrite(byte digit)
     pin++;//Passa para o proximo pino  
   } 
 } 
-
-
-
-
-
-
-
-
