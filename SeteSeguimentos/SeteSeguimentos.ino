@@ -1,3 +1,6 @@
+#define soma 10
+#define subtracao 11
+
 byte seven_seg_digits[16][7] = { { 0,0,0,0,0,0,1 },  // = 0
                                  { 1,0,0,1,1,1,1 },  // = 1
                                  { 0,0,1,0,0,1,0 },  // = 2
@@ -16,8 +19,11 @@ byte seven_seg_digits[16][7] = { { 0,0,0,0,0,0,1 },  // = 0
                                  { 0,1,1,1,0,0,0 }   // = F
                                };
 
+int contador = 0;
 
-void setup() {                
+
+void setup() 
+{                
   pinMode(2, OUTPUT);//A   
   pinMode(3, OUTPUT);//b
   pinMode(4, OUTPUT);//B
@@ -26,30 +32,64 @@ void setup() {
   pinMode(7, OUTPUT);//E
   pinMode(8, OUTPUT);//F
   pinMode(9, OUTPUT);//Ponto
-
+  pinMode(soma,INPUT_PULLUP);
+  pinMode(subtracao,INPUT_PULLUP);
   digitalWrite(9, HIGH); //Desligando o ponto
+
+  Serial.begin(9600);
 }
+
+void loop() 
+{ 
+
+  if(digitalRead(soma) == LOW)//LOW, pois ele  Pull UP
+  {
+
+    contador++;  
+
+    if(contador  == 16 )
+    {
+      contador = 0; 
+    }
+
+    sevenSegWrite(contador);
+
+    Serial.println(contador,HEX); 
+
+    delay(200);
+  }
+  else if(digitalRead(subtracao) == LOW) 
+  {
+    contador --;
+
+    if(contador < 0)
+    {
+      contador = 15; 
+    }
+
+    sevenSegWrite(contador);
+
+    Serial.println(contador,HEX); 
+
+    delay(200);   
+  }  
+}  
+
+
 void sevenSegWrite(byte digit)
 {
   byte pin = 2; //Pino inicial do arduino
-  
-  for (byte segCount = 0; segCount < 7; ++segCount) 
+
+  for (byte segCount = 0; segCount < 7; segCount++) 
   {
-    digitalWrite(pin, seven_seg_digits[digit][segCount]);//Pega o valor ma matriz e joga na porta digital;
-    ++pin;//Passa para o proximo pino  
+    digitalWrite(pin, seven_seg_digits[digit][segCount]);//Pega o valor ma matriz e joga no pino da vez;
+    pin++;//Passa para o proximo pino  
   } 
 } 
 
-//Conta de 0 a 9
-void loop() {   
-  for (byte count = 0; count < 17; count++) 
-  {
-    delay(1000);
-    sevenSegWrite(count - 1); 
-  }
 
-  delay(4000);   // Aguarda 4 segundos para recomeçar a contar
-}  
+
+
 
 
 
