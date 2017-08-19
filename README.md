@@ -10,4 +10,6 @@
 
 * [Display 7 seguimentos](https://github.com/CristianoRC/Arduino/blob/master/SeteSeguimentos/SeteSeguimentos.ino)
 
-* [Motor de passo](https://github.com/CristianoRC/Arduino/blob/master/MOtor/Motor.ino)
+* [Motor de passo](https://github.com/CristianoRC/Arduino/blob/master/Motor/Motor.ino)
+
+* [Rele](https://github.com/CristianoRC/Arduino/blob/master/Rele/Rele.ino)
