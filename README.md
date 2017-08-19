@@ -8,4 +8,6 @@
 
 * [Infra Vermelho](https://github.com/CristianoRC/Arduino/blob/master/InfraVermelho)
 
-* [Display 7 seguimentos](https://github.com/CristianoRC/Arduino/blob/master/SeteSeguimentos/SeteSeguimentos.ino);
+* [Display 7 seguimentos](https://github.com/CristianoRC/Arduino/blob/master/SeteSeguimentos/SeteSeguimentos.ino)
+
+* [Motor de passo](https://github.com/CristianoRC/Arduino/blob/master/MOtor/Motor.ino)
