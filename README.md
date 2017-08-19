@@ -13,3 +13,5 @@
 * [Motor de passo](https://github.com/CristianoRC/Arduino/blob/master/Motor/Motor.ino)
 
 * [Rele](https://github.com/CristianoRC/Arduino/blob/master/Rele/Rele.ino)
+
+* [Sensor de audio](https://github.com/CristianoRC/Arduino/blob/master/SensorAudio/SensorAudio.ino)

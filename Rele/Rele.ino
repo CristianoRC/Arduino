@@ -1,3 +1,4 @@
+
 #define btn 5
 #define rele 3
 
@@ -23,6 +24,3 @@ void loop()
   }
 
 }
-
-
-
