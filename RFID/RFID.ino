@@ -1,8 +1,8 @@
 /*
  Typical pin layout used:
  ________________________________________________________________________________________
- MFRC522      Arduino       Arduino   Arduino    Arduino          Arduino    |
- Reader/PCD   Uno/101       Mega      Nano v3    Leonardo/Micro   Pro Micro  |
+ MFRC522      Arduino       Arduino   Arduino    Arduino          Arduino                |
+ Reader/PCD   Uno/101       Mega      Nano v3    Leonardo/Micro   Pro Micro              |
  Signal      Pin          Pin           Pin       Pin        Pin              Pin        |
  ________________________________________________________________________________________|
  RST/Reset   RST          9             5         D9         RESET/ICSP-5     RST        |
@@ -35,6 +35,8 @@ void setup()
   Serial.begin(9600);	// Inicia a serial
   SPI.begin();		// Inicia  SPI bus
   mfrc522.PCD_Init();	// Inicia MFRC522
+  pinMode(buzzer,OUTPUT);
+
   Serial.println("Aproxime o seu cartao do leitor...");
   Serial.println();
 }
@@ -53,15 +55,20 @@ void loop()
       TagID.concat(String(mfrc522.uid.uidByte[i] < 0x10 ? " 0" : " "));
       TagID.concat(String(mfrc522.uid.uidByte[i], HEX));
     }
-    
+
     TagID.toUpperCase();
     Serial.println(TagID);
 
-    TagID = "";
+    digitalWrite(buzzer,HIGH);
+    delay(20);
+    digitalWrite(buzzer,LOW);  
+  }  
+  
+  TagID = "";
+  delay(500);
 
-    delay(1000);
-  }
 } 
+
 
 
 
