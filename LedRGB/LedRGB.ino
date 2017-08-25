@@ -1,12 +1,16 @@
-int redPin= 7;
-int greenPin = 6;
-int bluePin = 5;
-void setup() {
+#define redPin 7
+#define greenPin 6
+#define bluePin 5
+
+void setup() 
+{
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
   pinMode(bluePin, OUTPUT);
 }
-void loop() {
+
+void loop() 
+{
   setColor(250, 0, 0); // Red Color
   delay(500);
   setColor(0, 255, 0); // Green Color
@@ -20,13 +24,17 @@ void loop() {
   setColor(128,128,0); // Purple Color
   delay(500);
 }
-void setColor(int redValue, int greenValue, int blueValue) {
+
+void setColor(int redValue, int greenValue, int blueValue) 
+{
   analogWrite(redPin, redValue);
   analogWrite(greenPin, greenValue);
   analogWrite(bluePin, blueValue);
 }
-/*
-Black	#000000	(0,0,0)
+
+/* Cores (R,G,B)
+  
+  Black	#000000	(0,0,0)
  	White	#FFFFFF	(255,255,255)
  	Red	#FF0000	(255,0,0)
  	Lime	#00FF00	(0,255,0)
@@ -42,5 +50,5 @@ Black	#000000	(0,0,0)
  	Navy	#000080	(0,0,128)
  	Cyan    #00FFFF (0,255,255)
  	Magenta #FF00FF (255,0,255)
+ 
  */
-
