@@ -65,7 +65,7 @@ void loop()
   }  
   
   TagID = "";
-  delay(500);
+  delay(350);
 
 } 
 
