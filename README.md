@@ -22,8 +22,8 @@
 
 * [RF ID](https://github.com/CristianoRC/Arduino/blob/master/RFID/RFID.ino)
 
-* [Sensor de audio]SensorAudio/SensorAudio.ino)
+* [Sensor de audio](https://github.com/CristianoRC/Arduino/blob/masterSensorAudio/SensorAudio.ino)
 
 * [Teclado Matricial 4x4](https://github.com/CristianoRC/Arduino/blob/master/TecladoMatricial4x4/TecladoMatricial4x4.ino)
 
-* [Temperatura e humidade] (https://github.com/CristianoRC/Arduino/blob/master/Temperatura/Temperatura.ino)
+* [Temperatura e humidade](https://github.com/CristianoRC/Arduino/blob/master/Temperatura/Temperatura.ino)
