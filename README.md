@@ -20,6 +20,8 @@
 
 * [Rele](https://github.com/CristianoRC/Arduino/blob/master/Rele/Rele.ino)
 
+* [Relógio](https://github.com/CristianoRC/Arduino/blob/master/Relogio/Relogio.ino)
+
 * [RF ID](https://github.com/CristianoRC/Arduino/blob/master/RFID/RFID.ino)
 
 * [Sensor de audio](https://github.com/CristianoRC/Arduino/blob/masterSensorAudio/SensorAudio.ino)
