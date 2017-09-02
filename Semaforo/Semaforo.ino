@@ -8,15 +8,19 @@ void setup()
   pinMode(amarelo,OUTPUT);
   pinMode(verde,OUTPUT);
   pinMode(vermelho,OUTPUT);
+
+  Serial.begin(9600);
 }
 
 void loop()
 {
+  //SinalAlerta();
+  
   SinalVerde();
   delay(2000);
 
   SinalAmarelo();
-  delay(300);
+  delay(750);
 
   SinalVermelho();
   delay(2000);
@@ -44,12 +48,24 @@ void SinalVermelho()
   digitalWrite(vermelho,HIGH);
 }
 
+void SinalAlerta()
+{
+  SinalAmarelo();
+  delay(750);
+
+  DesligarLuzes();
+  delay(750);
+}
+
 void DesligarLuzes()
 {
   digitalWrite(amarelo,LOW);
   digitalWrite(verde,LOW);
   digitalWrite(vermelho,LOW); 
 }
+
+
+
 
 
 
