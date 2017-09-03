@@ -34,7 +34,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_Alerta = new System.Windows.Forms.Button();
             this.timerStatusLed = new System.Windows.Forms.Timer(this.components);
-            this.txt_Leitura = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureStatus)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +62,7 @@
             this.btn_Alerta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.YellowGreen;
             this.btn_Alerta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Alerta.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.45F);
-            this.btn_Alerta.Location = new System.Drawing.Point(227, 179);
+            this.btn_Alerta.Location = new System.Drawing.Point(227, 97);
             this.btn_Alerta.Name = "btn_Alerta";
             this.btn_Alerta.Size = new System.Drawing.Size(263, 71);
             this.btn_Alerta.TabIndex = 2;
@@ -74,16 +73,8 @@
             // timerStatusLed
             // 
             this.timerStatusLed.Enabled = true;
-            this.timerStatusLed.Interval = 1000;
+            this.timerStatusLed.Interval = 5000;
             this.timerStatusLed.Tick += new System.EventHandler(this.timerStatusLed_Tick);
-            // 
-            // txt_Leitura
-            // 
-            this.txt_Leitura.Location = new System.Drawing.Point(227, 3);
-            this.txt_Leitura.Multiline = true;
-            this.txt_Leitura.Name = "txt_Leitura";
-            this.txt_Leitura.Size = new System.Drawing.Size(263, 170);
-            this.txt_Leitura.TabIndex = 3;
             // 
             // Frm_Monitoramento
             // 
@@ -91,7 +82,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(525, 262);
-            this.Controls.Add(this.txt_Leitura);
             this.Controls.Add(this.btn_Alerta);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -104,7 +94,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureStatus)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -114,7 +103,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_Alerta;
         public System.Windows.Forms.Timer timerStatusLed;
-        private System.Windows.Forms.TextBox txt_Leitura;
     }
 }
 

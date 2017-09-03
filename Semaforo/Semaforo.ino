@@ -20,13 +20,13 @@ void loop()
   if(!ativarAlerta)
   {
     SinalVerde();
-    delay(5000);
+    delay(10000);
 
     SinalAmarelo();
-    delay(1500);
+    delay(5000);
 
     SinalVermelho();
-    delay(5000); 
+    delay(10000); 
   }
   else
   {
@@ -55,7 +55,7 @@ void SinalVerde()
 {
   DesligarLuzes();
 
-  Serial.println(verde);
+  Serial.println(2);
 
   digitalWrite(verde,HIGH);
 }
@@ -64,7 +64,7 @@ void SinalAmarelo()
 {
   DesligarLuzes();
 
-  Serial.println(amarelo);
+  Serial.println(3);
 
   digitalWrite(amarelo,HIGH);
 }
@@ -73,7 +73,7 @@ void SinalVermelho()
 {
   DesligarLuzes();
 
-  Serial.println(vermelho);
+  Serial.println(1);
 
   digitalWrite(vermelho,HIGH);
 }

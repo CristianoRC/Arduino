@@ -55,17 +55,24 @@ namespace MonitoramentoSemaforo
 
             var retornoSerial = comunicacao.ReadLine();
 
-            switch (retornoSerial)
-            {
-                case "3":
-                    return "Imagens/amarelo.png";
-                case "2":
-                    return "Imagens/verde.png";
-                case "1":
-                    return "Imagens/vermelho.png";
-                default:
-                    return "Imagens/desligado.png";
-            }
+            if (retornoSerial.Contains("3"))
+                return "Imagens/amarelo.png";
+            else if (retornoSerial.Contains("2"))
+                return "Imagens/verde.png";
+            else if (retornoSerial.Contains("1"))
+                return "Imagens/vermelho.png";
+            else if (retornoSerial.Contains(""))
+                return "Imagens/desligado.png";
+            else
+                return "Erro";
+
+        }
+
+        public static String ObterSerial()
+        {
+            AbrirConexao();
+
+            return comunicacao.ReadLine();
         }
     }
 }

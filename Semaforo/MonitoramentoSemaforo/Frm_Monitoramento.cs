@@ -26,6 +26,8 @@ namespace MonitoramentoSemaforo
                     btn_Alerta.Text = "Desativar alerta";
                     btn_Alerta.FlatAppearance.MouseOverBackColor = Color.LightSeaGreen;
                     estadoAlerta = true;
+
+                    timerStatusLed.Interval = 3000;
                 }
                 else
                 {
@@ -34,6 +36,8 @@ namespace MonitoramentoSemaforo
                     btn_Alerta.Text = "Ativar alerta";
                     btn_Alerta.FlatAppearance.MouseOverBackColor = Color.GreenYellow;
                     estadoAlerta = false;
+
+                    timerStatusLed.Interval = 5000;
                 }
             }
             catch (Exception ex)
@@ -45,9 +49,7 @@ namespace MonitoramentoSemaforo
 
         private void timerStatusLed_Tick(object sender, EventArgs e)
         {
-            //pictureStatus.ImageLocation = Semaforo.ObterCaminhoImagem();
-
-            //txt_Leitura.Text += $"{DateTime.Now.ToShortTimeString()}: {Semaforo.ObterCaminhoImagem()} {Environment.NewLine}";
+            pictureStatus.ImageLocation = Semaforo.ObterCaminhoImagem();
         }
 
         private void Frm_Monitoramento_Load(object sender, EventArgs e)
