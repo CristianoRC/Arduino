@@ -35,5 +35,5 @@
 ## Projetos
 
 
-* [Semaforo](https://github.com/CristianoRC/Arduino/blob/master//Semaforo/Semaforo.ino)
+* [Semaforo - Monitoramento](https://github.com/CristianoRC/Arduino/blob/master/Semaforo/)
 
