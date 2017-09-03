@@ -1,7 +1,6 @@
-## Monitoramento de semaforo Arduino - C#
+# Monitoramento de semaforo Arduino - C#
 
-![Imagem](/Semaforo.gif)
+![Imagem](https://raw.githubusercontent.com/CristianoRC/Arduino/master/Semaforo/Semaforo.gif)
 
-*[Arduino](https://github.com/CristianoRC/Arduino/blob/master/Semaforo/Semaforo.ino)
 
-*[Csharp](https://github.com/CristianoRC/Arduino/blob/master/Semaforo/MonitoramentoSemaforo)
+## Código fonte: [Arduino](https://github.com/CristianoRC/Arduino/blob/master/Semaforo/Semaforo.ino) - [Csharp](https://github.com/CristianoRC/Arduino/blob/master/Semaforo/MonitoramentoSemaforo)
