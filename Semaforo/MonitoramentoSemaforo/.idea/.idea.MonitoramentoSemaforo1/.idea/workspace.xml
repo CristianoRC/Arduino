@@ -12,51 +12,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Frm_Monitoramento.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.cs">
+      <file leaf-file-name="Semaforo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Semaforo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
               <folding>
-                <marker date="1504449064655" expanded="false" signature="6:63" ph="..." />
-                <marker date="1504449064655" expanded="true" signature="96:1899" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="148:1897" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="225:315" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="382:1293" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="408:1029" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="457:726" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="747:1015" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="1062:1283" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="1363:1585" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="1658:1891" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="1684:1753" ph="{...}" />
-                <marker date="1504449064655" expanded="true" signature="1786:1881" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Frm_Monitoramento.Designer.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.Designer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="53" />
-              <folding>
-                <marker date="1504449297575" expanded="true" signature="31:5492" ph="{...}" />
-                <marker date="1504449297575" expanded="true" signature="69:5490" ph="{...}" />
-                <marker date="1504449297575" expanded="true" signature="84:165" ph="/// Variável de designer necessária. ... " />
-                <marker date="1504449297575" expanded="true" signature="243:459" ph="/// Limpar os recursos que estão sendo usados. ... " />
-                <marker date="1504449297575" expanded="true" signature="515:689" ph="{...}" />
-                <marker date="1504449297575" expanded="true" signature="576:642" ph="{...}" />
-                <marker date="1504449297575" expanded="true" signature="699:5197" ph="Código gerado pelo Windows Form Designer" />
-                <marker date="1504449297575" expanded="true" signature="757:925" ph="/// Método necessário para suporte ao Designer - não modifique  ... " />
-                <marker date="1504449297575" expanded="true" signature="968:5177" ph="{...}" />
-                <marker date="1504449297575" expanded="true" signature="1722:1770" ph="/* pictureStatus ... */" />
-                <marker date="1504449297575" expanded="true" signature="2268:2309" ph="/* panel1 ... */" />
-                <marker date="1504449297575" expanded="true" signature="2670:2715" ph="/* btn_Alerta ... */" />
-                <marker date="1504449297575" expanded="true" signature="3427:3476" ph="/* timerStatusLed ... */" />
-                <marker date="1504449297575" expanded="true" signature="3677:3723" ph="/* txt_Leitura ... */" />
-                <marker date="1504449297575" expanded="true" signature="4022:4074" ph="/* Frm_Monitoramento ... */" />
+                <marker date="1504454543951" expanded="false" signature="6:58" ph="..." />
+                <marker date="1504454543951" expanded="true" signature="91:1763" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="126:1761" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="261:488" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="287:396" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="426:477" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="531:757" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="557:666" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="696:747" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="803:1033" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="829:942" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="972:1023" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="1084:1619" ph="{...}" />
+                <marker date="1504454543951" expanded="true" signature="1663:1755" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,12 +48,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Frm_Monitoramento.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Frm_Monitoramento.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Semaforo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Frm_Monitoramento.cs" />
         <option value="$PROJECT_DIR$/Frm_Monitoramento.Designer.cs" />
+        <option value="$PROJECT_DIR$/Semaforo.cs" />
       </list>
     </option>
   </component>
@@ -108,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -146,7 +124,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,11 +230,12 @@
       <updated>1504448964255</updated>
       <workItem from="1504448972702" duration="377000" />
       <workItem from="1504449474838" duration="549000" />
+      <workItem from="1504454528731" duration="30000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="926000" />
+    <option name="totallyTimeSpent" value="956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,21 +253,21 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -308,21 +286,57 @@
     <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <marker date="1504452886543" expanded="false" signature="6:63" ph="..." />
+            <marker date="1504452886543" expanded="true" signature="96:1876" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="148:1874" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="225:315" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="382:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="408:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="457:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1551:1562" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1635:1868" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1661:1730" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1763:1858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="53" />
+          <folding>
+            <marker date="1504452265969" expanded="true" signature="31:4938" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="69:4936" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="84:165" ph="/// Variável de designer necessária. ... " />
+            <marker date="1504452265969" expanded="true" signature="243:459" ph="/// Limpar os recursos que estão sendo usados. ... " />
+            <marker date="1504452265969" expanded="true" signature="515:689" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="576:642" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="699:1490" ph="Código gerado pelo Windows Form Designer" />
+            <marker date="1504452265969" expanded="true" signature="757:925" ph="/// Método necessário para suporte ao Designer - não modifique  ... " />
+            <marker date="1504452265969" expanded="true" signature="968:1490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
           <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <marker date="1504449064655" expanded="false" signature="6:63" ph="..." />
-            <marker date="1504449064655" expanded="true" signature="96:1899" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="148:1897" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="225:315" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="382:1293" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="408:1029" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="457:726" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="747:1015" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1062:1283" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1363:1585" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1658:1891" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1684:1753" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1786:1881" ph="{...}" />
+            <marker date="1504452886543" expanded="false" signature="6:63" ph="..." />
+            <marker date="1504452886543" expanded="true" signature="96:1876" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="148:1874" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="225:315" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="382:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="408:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="457:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1551:1562" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1635:1868" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1661:1730" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1763:1858" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -332,43 +346,15 @@
         <state relative-caret-position="1824">
           <caret line="76" column="44" lean-forward="false" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
           <folding>
-            <marker date="1504449297575" expanded="true" signature="31:5492" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="69:5490" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="84:165" ph="/// Variável de designer necessária. ... " />
-            <marker date="1504449297575" expanded="true" signature="243:459" ph="/// Limpar os recursos que estão sendo usados. ... " />
-            <marker date="1504449297575" expanded="true" signature="515:689" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="576:642" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="699:5197" ph="Código gerado pelo Windows Form Designer" />
-            <marker date="1504449297575" expanded="true" signature="757:925" ph="/// Método necessário para suporte ao Designer - não modifique  ... " />
-            <marker date="1504449297575" expanded="true" signature="968:5177" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="1722:1770" ph="/* pictureStatus ... */" />
-            <marker date="1504449297575" expanded="true" signature="2268:2309" ph="/* panel1 ... */" />
-            <marker date="1504449297575" expanded="true" signature="2670:2715" ph="/* btn_Alerta ... */" />
-            <marker date="1504449297575" expanded="true" signature="3427:3476" ph="/* timerStatusLed ... */" />
-            <marker date="1504449297575" expanded="true" signature="3677:3723" ph="/* txt_Leitura ... */" />
-            <marker date="1504449297575" expanded="true" signature="4022:4074" ph="/* Frm_Monitoramento ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <marker date="1504449064655" expanded="false" signature="6:63" ph="..." />
-            <marker date="1504449064655" expanded="true" signature="96:1899" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="148:1897" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="225:315" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="382:1293" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="408:1029" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="457:726" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="747:1015" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1062:1283" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1363:1585" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1658:1891" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1684:1753" ph="{...}" />
-            <marker date="1504449064655" expanded="true" signature="1786:1881" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="31:4938" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="69:4936" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="84:165" ph="/// Variável de designer necessária. ... " />
+            <marker date="1504452265969" expanded="true" signature="243:459" ph="/// Limpar os recursos que estão sendo usados. ... " />
+            <marker date="1504452265969" expanded="true" signature="515:689" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="576:642" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="699:1490" ph="Código gerado pelo Windows Form Designer" />
+            <marker date="1504452265969" expanded="true" signature="757:925" ph="/// Método necessário para suporte ao Designer - não modifique  ... " />
+            <marker date="1504452265969" expanded="true" signature="968:1490" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -376,23 +362,60 @@
     <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.Designer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="53" />
+          <caret line="76" column="52" lean-forward="false" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
           <folding>
-            <marker date="1504449297575" expanded="true" signature="31:5492" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="69:5490" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="84:165" ph="/// Variável de designer necessária. ... " />
-            <marker date="1504449297575" expanded="true" signature="243:459" ph="/// Limpar os recursos que estão sendo usados. ... " />
-            <marker date="1504449297575" expanded="true" signature="515:689" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="576:642" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="699:5197" ph="Código gerado pelo Windows Form Designer" />
-            <marker date="1504449297575" expanded="true" signature="757:925" ph="/// Método necessário para suporte ao Designer - não modifique  ... " />
-            <marker date="1504449297575" expanded="true" signature="968:5177" ph="{...}" />
-            <marker date="1504449297575" expanded="true" signature="1722:1770" ph="/* pictureStatus ... */" />
-            <marker date="1504449297575" expanded="true" signature="2268:2309" ph="/* panel1 ... */" />
-            <marker date="1504449297575" expanded="true" signature="2670:2715" ph="/* btn_Alerta ... */" />
-            <marker date="1504449297575" expanded="true" signature="3427:3476" ph="/* timerStatusLed ... */" />
-            <marker date="1504449297575" expanded="true" signature="3677:3723" ph="/* txt_Leitura ... */" />
-            <marker date="1504449297575" expanded="true" signature="4022:4074" ph="/* Frm_Monitoramento ... */" />
+            <marker date="1504452265969" expanded="true" signature="31:4938" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="69:4936" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="84:165" ph="/// Variável de designer necessária. ... " />
+            <marker date="1504452265969" expanded="true" signature="243:459" ph="/// Limpar os recursos que estão sendo usados. ... " />
+            <marker date="1504452265969" expanded="true" signature="515:689" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="576:642" ph="{...}" />
+            <marker date="1504452265969" expanded="true" signature="699:1490" ph="Código gerado pelo Windows Form Designer" />
+            <marker date="1504452265969" expanded="true" signature="757:925" ph="/// Método necessário para suporte ao Designer - não modifique  ... " />
+            <marker date="1504452265969" expanded="true" signature="968:1490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frm_Monitoramento.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1504452886543" expanded="false" signature="6:63" ph="..." />
+            <marker date="1504452886543" expanded="true" signature="96:1876" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="148:1874" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="225:315" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="382:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="408:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="457:709" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1551:1562" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1635:1868" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1661:1730" ph="{...}" />
+            <marker date="1504452886543" expanded="true" signature="1763:1858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Semaforo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <marker date="1504454543951" expanded="false" signature="6:58" ph="..." />
+            <marker date="1504454543951" expanded="true" signature="91:1763" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="126:1761" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="261:488" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="287:396" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="426:477" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="531:757" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="557:666" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="696:747" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="803:1033" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="829:942" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="972:1023" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="1084:1619" ph="{...}" />
+            <marker date="1504454543951" expanded="true" signature="1663:1755" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -61,7 +61,7 @@ namespace MonitoramentoSemaforo
                 return "Imagens/verde.png";
             else if (retornoSerial.Contains("1"))
                 return "Imagens/vermelho.png";
-            else if (retornoSerial.Contains(""))
+            else if (retornoSerial.Contains("0"))
                 return "Imagens/desligado.png";
             else
                 return "Erro";
