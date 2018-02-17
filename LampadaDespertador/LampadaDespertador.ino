@@ -7,7 +7,7 @@ byte DAT = 7;
 byte RST = 8;
 
 byte HoraLigar[2] = {06,29};
-byte MinutosDesligar = 1;
+byte MinutosDesligar = 20;
 
 //                (clock, data, rst)
 virtuabotixRTC relogio(CLK, DAT,RST);
